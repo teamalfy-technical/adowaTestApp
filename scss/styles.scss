@@ -1,0 +1,96 @@
+$primary:#393737;
+$Secondary:#FF4794;
+$White:#EBEBEB;
+$dark: #FFBC42;
+$darkPink: #8F2D56;
+$Font:'Montserrat', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: $primary;
+font-family:$Font !important;
+color: $White;
+position: relative;
+
+.BGSide{
+    position: absolute;
+    right:0 ;
+    top: 50%;
+    transform: translate(0 , -50%);
+    z-index: -100;
+}
+
+h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.highlight{
+    color: $Secondary;
+    text-decoration: none;
+}
+.highlight:hover{
+    color: $Secondary;
+
+}
+
+p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+input{
+    background: none !important;
+    border: 1px solid $Secondary !important;
+    border-radius: 15px !important;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.btn{
+    background-color: $dark;
+    color: $White;
+}
+
+.butnCont .btn{
+    background-color: $darkPink;
+    color: $White;
+}
+
+.linked{
+    color: $Secondary !important;
+
+}
+
+.SignUp{
+    color: $White !important;
+    text-decoration: none;
+}
+
+}
+
+
+@media screen and (max-width: 480px) {
+    body {
+      
+
+        h1{
+            font-size: 32px !important;
+            font-weight: 700;
+        }
+
+    }
+  }

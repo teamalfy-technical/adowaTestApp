@@ -10,21 +10,56 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="/adowaTestApp/css/style.css">
-
+<link rel="stylesheet" href="/adowaTestApp/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/adowaTestApp/scss/styles.css">
 </head>
 <body>
     
-    <nav class="navbar navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-          <img src="/adowaTestApp/Images/Logo.svg" alt="" class="text-center">
+
+
+
+<div class="nav container d-flex justify-content-center">
+    
+        <a href="#" class="nav-link">
+            <img src="/adowaTestApp/Images/Logo.svg" alt="">
+
+           
+        </a>
+    
+</div>
+
+
+<div class="container my-4 py-4 HEROMain">
+
+    <img src="/adowaTestApp/Images/BG.svg" alt="" class="img-fluid BGSide d-none d-md-block">
+
+    <div class="row align-items-center g-5">
+        <div class="col-md-6 textHero">
+            <h1>
+                <a href="#" class="highlight"> Adowa</a> is a simple to  <a href="#" class="highlight">do</a> list that allows you to do basic 
+                <a href="#" class="highlight">calculations within a</a> nested <a href="#" class="highlight">list.</a>
+            </h1>
+
+            <p>Adowa is currently in development but you can join 
+                the community as a tester</p>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">username/email</label>
+                  </div>
+
+                  <a href="/Signin.html" class="btn px-5">
+                    Get Invited
+                  </a>
             
-          </a>
         </div>
-      </nav>
 
+        <div class="col-md-6 HERO">
+            <img src="/adowaTestApp/Images/Hero.png" alt="" class="img-fluid">
+        </div>
+    </div>
+</div>
 
-    <script src="/bootstrap/js/bootstrap.min.js"></script>
+<script src="/adowaTestApp/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

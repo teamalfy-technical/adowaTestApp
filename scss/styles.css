@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #393737;
+  font-family: "Montserrat", sans-serif !important;
+  color: #EBEBEB;
+  position: relative;
+}
+
+body .BGSide {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  z-index: -100;
+}
+
+body h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+body .highlight {
+  color: #FF4794;
+  text-decoration: none;
+}
+
+body .highlight:hover {
+  color: #FF4794;
+}
+
+body p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+body input {
+  background: none !important;
+  border: 1px solid #FF4794 !important;
+  border-radius: 15px !important;
+}
+
+body label {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+body .btn {
+  background-color: #FFBC42;
+  color: #EBEBEB;
+}
+
+body .butnCont .btn {
+  background-color: #8F2D56;
+  color: #EBEBEB;
+}
+
+body .linked {
+  color: #FF4794 !important;
+}
+
+body .SignUp {
+  color: #EBEBEB !important;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  body h1 {
+    font-size: 32px !important;
+    font-weight: 700;
+  }
+}
+/*# sourceMappingURL=style.css.map */
