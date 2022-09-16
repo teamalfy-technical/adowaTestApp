@@ -1,0 +1,10 @@
+@import 'style';
+
+body{
+    background:#393737; 
+}
+
+.header .btn{
+    background:transparent;
+    padding: 12px;
+}
