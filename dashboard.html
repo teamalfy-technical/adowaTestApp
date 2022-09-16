@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adowa | Dashboard</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="scss/style.css"> -->
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #393737;
+  color: #EBEBEB !important;
+}
+
+header {
+  color: #EBEBEB !important;
+}
+
+header h4 {
+  font-size: 30px;
+}
+
+header h5 {
+  font-size: 20px;
+}
+
+header form .form-control {
+  padding-left: 2.375rem;
+}
+
+header form .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+header form input {
+  background: transparent;
+  color: #EBEBEB !important;
+  width: 400px;
+  border: 1px solid rgba(89, 89, 89, 0.966) !important;
+}
+
+header .profile {
+  width: 40px;
+  height: auto;
+}
+
+header .hero .heading {
+  display: inline-block;
+}
+
+header .hero .heading .star {
+  color: gold;
+}
+
+header .hero .tree ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #EBEBEB;
+}
+
+header .hero .right {
+  color: #EBEBEB !important;
+}
+
+    </style>
+</head>
+<body>
+
+<header class="shadow d-flex justify-content-between py-3 px-lg-3">
+    <h5> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-filter-right" viewBox="0 0 16 16">
+            <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"/>
+        </svg>
+         Tuaneka Project
+    </h5>
+    <img src="images/Logo.svg" alt="profile">
+    <div class="search d-flex justify-content-start">
+        <form class="d-flex" role="search">
+            <span class="fa fa-search form-control-feedback"></span>
+            <input class="form-control me-3 bg-transparent rounded-pill" type="search" placeholder="Search Document" aria-label="Search">
+        </form>
+        <img class="profile" src="images/driver1.png" alt="profile">
+    </div>
+</header>
+<div class="hero pt-5 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="heading d-flex justify-content-start">
+                    <h4>Tuaneka Project</h4>
+                    <span class="pt-1">
+                        <i class="fas fa-star px-3"></i>
+                        <i class="fas fa-share-alt"></i>
+                    </span>
+                </div>
+                <div id="jstree" class="tree text-light pt-4 ps-lg-5">
+                    <ul>
+                      <li>Root node 1
+                        <ul>
+                          <li id="child_node_1">Child node 1</li>
+                          <li>Child node 2</li>
+                        </ul>
+                      </li>
+                      <li>Root node 2</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex justify-content-end right">
+                    <i class="fas fa-bars pe-2"></i>
+                    <i class="fas fa-browser"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
