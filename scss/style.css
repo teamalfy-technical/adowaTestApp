@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #393737;
+  color: #EBEBEB !important;
+}
+
+header {
+  color: #EBEBEB !important;
+}
+
+header h4 {
+  font-size: 30px;
+}
+
+header h5 {
+  font-size: 20px;
+}
+
+header form .form-control {
+  padding-left: 2.375rem;
+}
+
+header form .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+header form input {
+  background: transparent;
+  color: #EBEBEB !important;
+  width: 400px;
+  border: 1px solid rgba(89, 89, 89, 0.966) !important;
+}
+
+header .profile {
+  width: 40px;
+  height: auto;
+}
+
+header .hero .heading {
+  display: inline-block;
+}
+
+header .hero .heading .star {
+  color: gold;
+}
+
+header .hero .tree ul li {
+  list-style: none;
+  text-decoration: none;
+  color: #EBEBEB;
+}
+
+header .hero .right {
+  color: #EBEBEB !important;
+}
