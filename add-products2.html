@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Adowa | Home</title>
+        <title>Adowa | Add Products</title>
         <link rel="apple-touch-icon" href="assets/images/eye-icon.png">
         <link rel="shortcut icon" type="image/x-icon" href="assets/images/eye-icon.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -12,14 +12,21 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>   
-            <!-- Owl -->
-            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-            <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"> 
+        <!-- Dropzone -->
+        <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css">    
+        <!-- Owl -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"> 
+        <!-- swiper -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      />
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
 <body>
-    <div class="container-fluid vh-100 products">
-        <div class="row">
+    <div class="container-fluid products">
+        <div class="row vh-100">
             <div class="col-lg-11">
                 <div class="nav d-flex justify-content-start py-2">
                     <a href="index.html" class="nav-link">
@@ -58,7 +65,6 @@
                                 <label for="exampleInputTag" class="form-label">Add Tags</label>
                                 <input type="text" class="form-control py-3" placeholder="Tags" id="exampleInputName" required>
                             </form>
-
                         </div>
                         <div class="col-lg-6">
                             <h4 class="text-center">Add Details & Pricing</h4>
@@ -105,7 +111,6 @@
                                 </div>
                             </div>
                                </div> 
-
                                 <div class="col-lg-6">
                                     <label for="exampleInputName" class="form-label">Title</label>
                                     <input type="text" class="form-control py-3" placeholder="My live feed" id="exampleInputName" required>
@@ -123,7 +128,7 @@
                                 <label for="exampleFormControlTextarea1" class="form-label">Delivery and Returns</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                             </div>
-                            <div class=" d-flex justify-content-start flex nowrap">
+                            <div class="d-flex justify-content-start flex nowrap">
                                 <form class="row g-2 flex nowrap">
                                     <!-- <div class="col-auto">
                                       <label for="staticEmail2" class="visually-hidden">Email</label>
@@ -134,7 +139,7 @@
                                       <input type="text" class="form-control py-3 w-100" id="inputPassword2" placeholder="https://mylivevideo/123456yes!!">
                                     </div>
                                     <div class="col-4">
-                                      <button type="submit" class="btn btn-share text-nowrap py-3"><small>Share your Live Link </small> <img class="ps-2" src="assets/images/waves.png" width="30px" height="30px" alt="live-icon"></button>
+                                      <a href="product-feed.html" type="submit" class="btn btn-share text-nowrap py-3"><small>Share your Live Link </small> <img class="ps-2" src="assets/images/waves.png" width="30px" height="30px" alt="live-icon"></a>
                                     </div>
                                 </form>
                             </div>
@@ -161,17 +166,33 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-1 profile-bg d-flex align-items-end flex-column text-center">
+            <div class="col-lg-1 profile-bg vh-100 d-flex align-items-center flex-column text-center">
                 <div class="text-center mt-4">
-                    <a href="#"><img src="assets/images/profile.png" alt="profile-image"></a>
+                    <a href="#"><img src="assets/images/profile.png" width="70" height="70" alt="profile-image"></a>
                     <h5 class="my-3 text-center ">Akessi</h5>
-                    <a href="checkout.html" class="btn bg-pink text-light rounded-pill fw-bolder my-3"><small> Checkout</small></a>
-
+                    <a href="checkout.html" class="btn bg-pink text-light rounded-pill fw-bold my-3"><small> Checkout</small></a><br>
                     <a href="#"><img src="assets/images/cart.png" alt="cart-image"></a>
                 </div>
-                <div class="settings mt-auto me-4 text-center">
-                   <a href="products.html"><img class="mb-5" src="assets/images/settings.png" alt="settings-image"></a> 
+                <div class="settings mt-auto  mx-auto text-center">
+                   <a href="products.html"><img class="pb-3" src="assets/images/settings.png" alt="settings-image"></a> 
                 </div>
+                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Navbar</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link" href="#">Features</a>
+                          <a class="nav-link" href="#">Pricing</a>
+                          <a class="nav-link disabled">Disabled</a>
+                        </div>
+                      </div>
+                    </div>
+                </nav> -->
+            
             </div>
             <div class="footer text-center">
                 <a href="#"><small class="text-light">Terms and conditions | Privacy Policy| Teamalfy.com</small></a>
