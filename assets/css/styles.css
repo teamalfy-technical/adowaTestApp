@@ -42,7 +42,7 @@
     background-size: contain;
     width: 100%;
     margin-top: -60px;
-    height: 850px;
+    height: auto;
 }
  input {
     background: none !important;
