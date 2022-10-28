@@ -23,52 +23,61 @@
 <div class="container-fluid products ">
     <div class="row vh-100">
         <div class="col-lg-11">
-            <div class="nav ms-lg-4 ms-1 d-flex justify-content-between flex-wrap py-3">
+            <div class="nav ms-lg-4 ms-1 d-flex justify-content-between py-3">
                 <a href="index.html" class="nav-link">
                     <img class="logo" src="assets/images/Logo.svg" alt="logo">       
                 </a> 
                 <span></span>
-                <h5 class="text-end ms-lg-5 ms-1">CHECKOUT</h5>
+                <h5 class="mt-3 ms-lg-5 ms-1">CHECKOUT</h5>
                 <span></span>
             </div>
             <div class="container checkout">
                 <div class="row g-5">
                     <div class="col-lg-8">
-                        <form action="">
-                            <label for="select">Delivery Details</label>
-                            <select class="form-select form-select-lg text-dark rounded-pill text-center w-50 mb-2" aria-label=".form-select-lg example">
-                                <option selected> 
-                                    🇬🇧&emsp; United Kindom</option>
-                                <option value="1">🇬🇧&emsp;United Kindom</option>
-                                <option value="2"><img src="assets/images/profile.png" width="70" height="70" alt="profile-image">US 8</option>
-                                <option value="3">CHINA 14</option>
-                            </select>
-                            <div class="col my-3">
-                                <label for="email">Email Address</label>
-                                <input type="email" placeholder="Tina@teamalfy.com" class="w-50 icon rounded-pill text-white fw-bold form-control text-center">
-                            </div>
-                            <div class="col me-5 pe-5">
-                                <label for="text">Delivery Address</label>
-                                <input type="text" placeholder="5 Bell Street, Princes Risb. Buckinghamshire,HP27 0DE" class="rounded-pill icon text-white fw-bold form-control">
-                            </div>
-                            <!-- <label for="select">Delivery Address</label>
-                            <select class="form-select rounded-pill form-select-lg text-dark  mb-2" aria-label=".form-select-lg example">
-                                <option selected>Open this select menu</option>
-                                <option value="1">UK 12</option>
-                                <option value="2">US 8</option>
-                                <option value="3">CHINA 14</option>
-                            </select> -->
-                        </form> 
+                        <div data-aos="fade-up" data-aos-duration="1000" >
+                            <form action="" class="checkout-form">
+                                <div class="col me-lg-5 pe-lg-5">
+                                    <label for="select">Delivery Details</label>
+                                    <select class="form-select rounded-pill text-center mb-2" aria-label=".form-select">
+                                        <option selected> 
+                                            🇬🇧&emsp; United Kindom</option>
+                                        <option value="1">🇬🇧&emsp;United Kindom</option>
+                                        <option value="2">US 8</option>
+                                        <option value="3">CHINA 14</option>
+                                    </select>
+                                </div>
+
+                                <div class="col my-3 me-lg-5 pe-lg-5">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" placeholder="Tina@teamalfy.com" class="icon rounded-pill text-white fw-bold form-control text-center">
+                                </div>
+                                <div class="col me-lg-1 pe-lg-1">
+                                    <label for="text">Delivery Address</label>
+                                    <input type="text" placeholder="5 Bell Street, Princes Risb. Buckinghamshire,HP27 0DE" class="rounded-pill icon text-white fw-bold form-control">
+                                </div>
+                                <!-- <label for="select">Delivery Address</label>
+                                <select class="form-select rounded-pill form-select-lg text-dark  mb-2" aria-label=".form-select-lg example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">UK 12</option>
+                                    <option value="2">US 8</option>
+                                    <option value="3">CHINA 14</option>
+                                </select> -->
+                            </form> 
+                        </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="d-flex justify-content-start shop mt-2 mb-3">
-                            <img class="details-img" src="assets/images/shoe.png" width="500px" height="500px" alt="product-image">
+                        <div data-aos="zoom-in" data-aos-duration="2000" >
+                            <div class="d-flex justify-content-start shop mt-2 mb-3">
+                                <img class="details-img" src="assets/images/shoe.png" width="500px" height="500px" alt="product-image">
+                            </div>
+                        </div> 
+                        <div data-aos="fade-up" data-aos-duration="2000" >
+                            <p class="text-white">Non in odio imperdiet ipsum. Nec non lacus etiam id viverra eu arcu quam commodo. Et massa fusce proin et ipsum. Nunc ultrices elit aliquet sollicitudin turpis sed aenean sollicitudin magnis. Est suspendisse a. </p>
+                            <h4>QTY : 4</h4>
+                            <h4 class="py-3">Sub Total : $1300.00</h4>
+                            <h4>Total to Pay : $1300</h4>
+                            <a href="" class="btn btn-pink text-light my-4 px-5 py-3"> PAY NOW</a>
                         </div>
-                        <p class="text-white">Non in odio imperdiet ipsum. Nec non lacus etiam id viverra eu arcu quam commodo. Et massa fusce proin et ipsum. Nunc ultrices elit aliquet sollicitudin turpis sed aenean sollicitudin magnis. Est suspendisse a. </p>
-                        <h4>QTY : 4</h4>
-                        <h4 class="py-3">Sub Total : $1300.00</h4>
-                        <h4>Total to Pay : $1300</h4>
-                        <a href="" class="btn btn-pink text-light my-4 px-5 py-3"> PAY NOW</a>
                     </div>
                 </div>
             </div>
