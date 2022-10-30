@@ -13,6 +13,9 @@
   .bg-pink{
     background: #FF4794;
   }
+  .bg-orange{
+    background:#F28705;
+  }
  h1 {
     font-size: 55px;
     font-weight: 700;
@@ -36,7 +39,9 @@
   a{
     text-decoration: none;
   }
-  
+  .offcanvas{
+    width: 200px;
+  }
   .hero-bg img{
     overflow: hidden;
     background-size: contain;
@@ -361,8 +366,9 @@ color: #fff;
   }
 .settings{
   text-align: center;
-  display:flex;
-  justify-content: center;
+  position: absolute;
+  margin: 0 auto; 
+  bottom: 0;
 }
 
 .swiper {
@@ -437,12 +443,16 @@ color: #fff;
     border-radius:15px;
     text-decoration: none;
   }
+  
   @media screen and (max-width: 900px) {
     /* home */
   .logo{
       width: 120px;
       height:auto;
     }
+    /* .offcanvas{
+      width: 100%;
+    } */
     .header .signup{
       margin-right: 5px;
       display: flex;

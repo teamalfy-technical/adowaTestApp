@@ -17,14 +17,40 @@
             <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"> 
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
-<body>
-    <div class="container-fluid products">
+<body >
+    <div class="container-fluid products" >
         <div class="row">
-            <div class="col-lg-11">
-                <div class="nav d-flex justify-content-start py-3">
+            <div class="col-lg-12">
+                <div class="nav d-flex py-3">
                     <a href="index.html" class="nav-link">
                         <img class="logo" src="assets/images/Logo.svg" alt="logo">       
-                    </a> 
+                    </a>
+                    <span></span>
+                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+                        <span class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-filter-right" viewBox="0 0 16 16">
+                                <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"></path>
+                            </svg>
+                        </span>
+                    <div class="offcanvas offcanvas-end show bg-orange " data-bs-backdrop="false" data-bs-scroll="true" data-bs-dismiss="offcanvas"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Adowa</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body mx-auto">
+                            <div class="profile-bg d-flex align-items-end flex-column text-center">
+                                <div class="text-center mt-4 mx-auto">
+                                    <a href="#"><img src="assets/images/profile.png" width="70" height="70"alt="profile-image"></a>
+                                    <h5 class="my-3 text-center ">Akessi</h5>
+                                    <a href="checkout.html" class="btn bg-pink text-light rounded-pill fw-bold my-3"><small> Checkout</small></a><br>
+                                    <a href="#"><img src="assets/images/cart.png" alt="cart-image"></a>
+                                </div>
+                                <div class="settings me-3 text-center">
+                                   <a href="products.html"><img class="mb-3" src="assets/images/settings.png" alt="settings-image"></a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000" >
                     <div class="text-center title mt-lg-5 pt-lg-5 mt-2 pt-2">
@@ -32,34 +58,6 @@
                         <a href="add-products3.html" class="btn rounded-pill fw-bolder px-5 py-2 my-4"><img class="me-3 text-center" src="assets/images/eye-icon.png" alt="icon"> Add Products</a>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-1 profile-bg vh-100  mx-auto d-flex align-items-end flex-column text-center">
-                <div class="text-center mt-4 mx-auto">
-                    <a href="#"><img src="assets/images/profile.png" width="70" height="70"alt="profile-image"></a>
-                    <h5 class="my-3 text-center ">Akessi</h5>
-                    <a href="checkout.html" class="btn bg-pink text-light rounded-pill fw-bold my-3"><small> Checkout</small></a><br>
-                    <a href="#"><img src="assets/images/cart.png" alt="cart-image"></a>
-                </div>
-                <div class="settings mt-auto mx-auto text-center">
-                   <a href="products.html"><img class="mb-3" src="assets/images/settings.png" alt="settings-image"></a> 
-                </div>
-                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Navbar</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          <a class="nav-link" href="#">Features</a>
-                          <a class="nav-link" href="#">Pricing</a>
-                          <a class="nav-link disabled">Disabled</a>
-                        </div>
-                      </div>
-                    </div>
-                </nav> -->
-            
             </div>
         </div>
     </div>

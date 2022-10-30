@@ -1,3 +1,9 @@
+  // 
+  var myOffcanvas = document.getElementById('#offcanvasRight')
+myOffcanvas.addEventListener('hidden.bs.offcanvas', function () {
+  // do something...
+})
+  
   // Dropzone has been added as a global variable.
 
 
