@@ -22,8 +22,8 @@
 <body>
 <div class="container-fluid products ">
     <div class="row vh-100">
-        <div class="col-lg-11 product-feed">
-            <div class="nav ms-lg-4 ms-1 d-flex justify-content-between flex-wrap py-3">
+        <div class="col-lg-12 product-feed">
+            <div class="nav d-flex py-3">
                 <a href="index.html" class="nav-link">
                     <img class="logo" src="assets/images/Logo.svg" alt="logo">       
                 </a> 
@@ -33,8 +33,37 @@
                         <div class="input-group-text bg-transparent"><img class="" src="assets/images/search.png" width="20px" height="20px" alt="profile-image"></div>
                     </div>
                 </form>
-                <span></span>
-            </div>
+                <span class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-filter-right" viewBox="0 0 16 16">
+                        <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z"></path>
+                    </svg>
+                </span>
+                <div class="offcanvas offcanvas-end show bg-orange " data-bs-backdrop="false" data-bs-scroll="true" data-bs-dismiss="offcanvas"  tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Adowa</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body mx-auto">
+                        <div class="profile-bg d-flex align-items-end flex-column text-center">
+                            <div class=" mt-4">
+                                <a href="#"><img src="assets/images/profile.png" width="70" height="70" alt="profile-image"></a>
+                                <h5 class="my-3 text-center ">Akessi</h5>
+                                <a href="checkout.html" class="btn bg-pink text-light rounded-pill fw-bolder my-3"><small> Checkout</small></a><br>
+                                <a href="#"><img src="assets/images/cart.png" alt="cart-image"></a>
+                                <div class="avatar my-3 flex-wrap">
+                                    <img src="assets/images/shoe.png" class="preview" alt="shoe">
+                                    <img src="assets/images/shoeb.png" class="preview" alt="shoe"><br>
+                                    <img src="assets/images/shoe.png" class="preview" alt="shoe"><br>
+                                    <img src="assets/images/shoeb.png" class="preview" alt="shoe">
+                                </div>
+                            </div>
+                            <div class="settings me-3 mx-auto text-center">
+                               <a href="products.html"><img class="mb-3" src="assets/images/settings.png" alt="settings-image"></a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>      
             <div class="container mb-3">
                 <div class="row g-5">
                     <div class="col-lg-8">
@@ -140,7 +169,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-1 profile-bg d-flex align-items-center flex-column text-center">
+        <!-- <div class="col-lg-1 profile-bg d-flex align-items-center flex-column text-center">
             <div class="text-center mt-4">
                 <a href="#"><img src="assets/images/profile.png" width="70" height="70" alt="profile-image"></a>
                 <h5 class="my-3 text-center ">Akessi</h5>
@@ -157,7 +186,7 @@
             <div class="settings mt-auto mx-auto text-center">
                <a href="products.html"><img class="mb-3" src="assets/images/settings.png" alt="settings-image"></a> 
             </div>     
-        </div>
+        </div> -->
     </div>
 </div>
 <script>

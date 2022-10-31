@@ -39,8 +39,8 @@
   a{
     text-decoration: none;
   }
-  .offcanvas{
-    width: 200px;
+  .offcanvas.offcanvas-end{
+    width: 150px;
   }
   .hero-bg img{
     overflow: hidden;
@@ -186,6 +186,7 @@ font-size:12px;
 .avatar-group img{
     border: 1px solid #F28705;
     margin:2px;
+    display: block;
     border-radius: 8px;
     background:#ffffffe4;
     max-width: 50px;
