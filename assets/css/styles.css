@@ -4,7 +4,7 @@
 
   }
   body {
-    background-color: #393737;
+    background-color: #393737 !important;
     font-family: "Montserrat", sans-serif !important;
     color: #EBEBEB;
     width: 100%;
@@ -183,7 +183,7 @@ font-size:12px;
       height: 50px;  
     }
 
-.avatar-group img{
+.avatars-group img{
     border: 1px solid #F28705;
     margin:2px;
     display: block;
@@ -214,7 +214,7 @@ font-size:12px;
   height: 80px;
 }
 
-.card{
+.products .card{
   width: 100%;
   height: 450px;
   background: #716B6B;
@@ -222,7 +222,7 @@ font-size:12px;
   padding: 10px;
   border-radius: 15px;
 }
-.card-img img{
+.products .card-img img{
   padding: 10px;
   width: 85%;
   height: 100px;
@@ -251,7 +251,7 @@ font-size:12px;
   border: none;
 }
 
-.avatar img{
+.avatars img{
   margin: 10px 10px;
   width: 70px;
   height: 70px;
@@ -444,7 +444,17 @@ color: #fff;
     border-radius:15px;
     text-decoration: none;
   }
-  
+
+  /* Dashboard */
+  .ecommerce-products .card{
+    background: #4F4F4F !important;
+  }
+  .sidebar-detached .card{
+    background: #716B6B !important;
+  }
+.filter-title{
+  color: #fff !important;
+}
   @media screen and (max-width: 900px) {
     /* home */
   .logo{
@@ -477,11 +487,11 @@ color: #fff;
         margin: 0 !important;
     }
     /* Add-product */
-    .card{
+    .products .card{
       width: 100%;
       height: auto;
     }
-    .card-img img{
+    .products .card-img img{
       width: 300px;
       height: 150px;
     }
