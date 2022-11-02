@@ -3315,6 +3315,7 @@ fieldset:disabled .btn {
   border-top-right-radius: 0; }
 
 .nav-pills .nav-link {
+  color: #fff;
   background: none;
   border: 0;
   border-radius: 0.358rem; }
@@ -3322,7 +3323,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #7367f0; }
+  background-color: #F28705; }
 
 .nav-fill > .nav-link,
 .nav-fill .nav-item {

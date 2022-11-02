@@ -14,7 +14,7 @@
     background: #FF4794;
   }
   .bg-orange{
-    background:#F28705;
+    background:#F28705 !important;
   }
  h1 {
     font-size: 55px;
@@ -455,8 +455,24 @@ color: #fff;
 .filter-title{
   color: #fff !important;
 }
+
+.nav.nav-pills li{
+  display: inline-block;
+}
   @media screen and (max-width: 900px) {
     /* home */
+    .nav.nav-pills{
+      white-space: nowrap;
+      /* width: 400px; */
+      /* display:block!important; */
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      /* -webkit-overflow-scrolling: touch; */
+    }
+
   .logo{
       width: 120px;
       height:auto;
