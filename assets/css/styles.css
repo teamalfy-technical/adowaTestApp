@@ -10,6 +10,12 @@
     width: 100%;
     height: 100%;
   }
+  .bg-darkSilver{
+    background: #747474 !important;
+  }
+  .bg-lightdeep{
+    background-color: #343D55;
+}
   .bg-pink{
     background: #FF4794;
   }
